@@ -11,8 +11,10 @@
 	<!-- the entire body must be written by student -->
 	<div class="container row">
 	  <h2 class=" container row text-center">Cards Gallery</h2>
-	  
-		  <div class="card  text-center lightbox">
+	   <div class="lightbox" onclick="closeLightbox()">
+         <img id="lightbox-image" src="" alt="Lightbox">
+   
+		  <div class="card  text-center">
 		    <img src="https://storage.googleapis.com/acciojob-open-file-collections/image1.jpg">
 		    <h6>card-1</h6>
 		    <p>You must use the following images in the cards:</p>
@@ -42,11 +44,9 @@
 		    <h6>card-6</h6>
 		    <p>You must use the following images in the cards:</p>
 		  </div>
-		   
+	   </div>   
 	</div>
-	 <div class="lightbox" onclick="closeLightbox()">
-        <img id="lightbox-image" src="" alt="Lightbox">
-    </div>
+	
     <script type="text/javascript" src="./script.js">
 </script>
 
